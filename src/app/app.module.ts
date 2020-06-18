@@ -9,6 +9,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { WeatherComponent } from './components/weather/weather.component';
 import { NewsFeedComponent } from './components/news-feed/news-feed.component';
+import { CurrentDateComponent } from './components/current-date/current-date.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NewsFeedComponent } from './components/news-feed/news-feed.component';
     HomePageComponent,
     NotFoundComponent,
     WeatherComponent,
-    NewsFeedComponent
+    NewsFeedComponent,
+    CurrentDateComponent
   ],
   imports: [
     BrowserModule,
