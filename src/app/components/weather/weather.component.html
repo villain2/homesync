@@ -1,7 +1,36 @@
 <div class="row weatherRow">
-    <div class="col-6">
+    <div class="col-7">
         <div id="currentTemp">
             75&deg;
+        </div>
+        <div class="row">
+            <div class="col">
+
+                <div class="btn-group btn-group-sm btn-group-toggle tempControls" data-toggle="buttons">
+
+                    <label class="btn btn-outline-secondary">
+                        <input type="radio" name="options" id="heat" autocomplete="off" checked> Heat
+                    </label>
+                    <label class="btn btn-outline-secondary active">
+                        <input type="radio" name="options" id="cool" autocomplete="off"> Cool
+                    </label>
+                    <label class="btn btn-outline-secondary">
+                        <input type="radio" name="options" id="off" autocomplete="off"> Off
+                    </label>
+                </div>
+            </div>
+            <div class="col">
+
+                <div class="btn-group btn-group-sm btn-group-toggle tempControls" data-toggle="buttons">
+
+                    <label class="btn btn-outline-secondary">
+                        <input type="radio" name="fan" id="auto" autocomplete="off" checked> Auto
+                    </label>
+                    <label class="btn btn-outline-secondary active">
+                        <input type="radio" name="fan" id="fanOff" autocomplete="off"> Off
+                    </label>
+                </div>
+            </div>
         </div>
     </div>
     <div class="col fiveDayForecast">
