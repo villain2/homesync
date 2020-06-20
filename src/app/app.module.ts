@@ -10,6 +10,9 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { WeatherComponent } from './components/weather/weather.component';
 import { NewsFeedComponent } from './components/news-feed/news-feed.component';
 import { CurrentDateComponent } from './components/current-date/current-date.component';
+import { AppButtonsComponent } from './components/app-buttons/app-buttons.component';
+import { SecurityPageComponent } from './components/security-page/security-page.component';
+import { MediaPageComponent } from './components/media-page/media-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { CurrentDateComponent } from './components/current-date/current-date.com
     NotFoundComponent,
     WeatherComponent,
     NewsFeedComponent,
-    CurrentDateComponent
+    CurrentDateComponent,
+    AppButtonsComponent,
+    SecurityPageComponent,
+    MediaPageComponent
   ],
   imports: [
     BrowserModule,
